@@ -11,16 +11,16 @@
 #include "Timer.h"
 
 const int RECV_PIN = 13;
-const int TX_PIN = 5;
+const int TX_PIN = 4;
 IRrecv irrecv(RECV_PIN);
 IRsend irsend(TX_PIN); //an IR led is connected to GPIO pin 0
 
 decode_results results;
 
-const char* ssid     = "mbd-west-wing";
+const char* ssid     = "espap";
 const char* password = "monkeyfarm";
 
-const char* host = "10.85.0.200";
+const char* host = "192.168.12.106";
 
 int badgeList[10];
 int numBadges = 0;
@@ -133,8 +133,14 @@ void updateOverWifi()
   
   // Read all the lines of the reply from server and print them to Serial
   while(client.available()){
-    char c = client.read();
-    int x = c - '0';
+    unsigned char c = client.read();
+//    int x = c - '0';
+    int x = c & 0xff;
+    Serial.print("XXX Got led value: ");
+//    Serial.print(c);
+//    Serial.print(" : ");
+    Serial.println(x, HEX);
+    
     setBadgeLED(x);
 }
 }

@@ -12,7 +12,9 @@ class myHandler(BaseHTTPRequestHandler):
 		#self.send_header('Content-type','text/html')
 		#self.end_headers()
 		# Send the html message
+		print "sending colour"
 		self.wfile.write(chr(random.randint(1, 255)))
+#		self.wfile.write(chr(0xff))
 		
 		return
 try:
