@@ -1,4 +1,4 @@
-update=Sat 25 Jun 2016 14:17:59 SAST
+update=Mon 27 Jun 2016 19:41:28 SAST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=/home/mike/kicad/libraries/kicad-ESP8266/ESP8266
 LibName31=/home/mike/kicad/libraries/TSOP38238 38kHz IR receiver
+LibName32=/home/mike/source/nc-libs/CP2102
+LibName33=/home/mike/source/nc-libs/cp2103
