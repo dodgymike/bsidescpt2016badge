@@ -38,10 +38,10 @@ Timer t;                               //instantiate the timer object
 
 // 5110 things
 #define PIN_SCE   3 //Pin 3 on LCD
-#define PIN_RESET 0 //Pin 4 on LCD
+#define PIN_RESET 4 //Pin 4 on LCD
 #define PIN_DC    2 //Pin 5 on LCD
 #define PIN_SDIN  1 //Pin 6 on LCD
-#define PIN_SCLK  4 //Pin 7 on LCD
+#define PIN_SCLK  0 //Pin 7 on LCD
 
 //The DC pin tells the LCD if we are sending a command or data
 #define LCD_COMMAND 0 
