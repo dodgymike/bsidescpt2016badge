@@ -719,7 +719,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 1550 1850 1550
 Connection ~ 1850 1550
-Wire Wire Line
-	1100 2200 5100 2200
 Connection ~ 1450 800 
+Wire Wire Line
+	5100 2200 3000 2200
 $EndSCHEMATC
