@@ -19,8 +19,11 @@ class Clan:
   def remove_member(self, clan_member):
     self.clan_members.remove(clan_member)
 
-  def colour():
+  def colour(self):
     return self.colour
+
+  def size(self):
+    return len(self.clan_members)
 
   def __repr__(clan):
     return "Clan: colour={0},members={1}".format(clan.colour, clan.clan_members)

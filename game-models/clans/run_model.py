@@ -3,6 +3,7 @@ import random
 from clan import Clan
 from clan_member import ClanMember
 from fight import Fight
+from domination_fight import DominationFight
 
 clan_red = Clan("red")
 clan_green = Clan("green")
@@ -27,24 +28,27 @@ print clan_green
 print clan_blue
 
 f=Fight()
+df=DominationFight()
 
+print "round,red_count,green_count,blue_count"
 for round_count in range(0, 10000):
   for x in range(0, num_players):
     player_a = random.choice(all_players)
     player_b = random.choice(all_players)
+
+    #if round_count % 300:
     f.fight(player_a, player_b)
+    #else:
+    #  df.fight(player_a, player_b)
 
   if round_count % 300 == 0:
-    print "Round:" + str(round_count)
-    print clan_red
-    print clan_green
-    print clan_blue
+    print str(round_count) + "," + str(clan_red.size()) + "," + str(clan_green.size()) + "," + str(clan_blue.size())
 
   # defections
-  defector = random.choice(all_players)
-  defector_new_clan = random.choice(clans)
-  defector_new_clan.add_member(defector)
+#  defector = random.choice(all_players)
+#  defector_new_clan = random.choice(clans)
+#  defector_new_clan.add_member(defector)
 
-print clan_red
-print clan_green
-print clan_blue
+#print clan_red
+#print clan_green
+#print clan_blue
