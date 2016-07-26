@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mike/source/bsidescpt2016badge/badge-dc24/badge-dc24.sch)
-    (date "Tue 26 Jul 2016 21:10:52 SAST")
+    (date "Tue 26 Jul 2016 21:11:03 SAST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu15.10.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
