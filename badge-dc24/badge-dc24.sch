@@ -448,8 +448,6 @@ Connection ~ 6900 1350
 Wire Wire Line
 	6000 1400 6000 1350
 Connection ~ 6000 1350
-Wire Wire Line
-	1100 2200 5100 2200
 Connection ~ 2800 1900
 Wire Wire Line
 	5250 3800 5250 5100
@@ -492,7 +490,7 @@ Wire Wire Line
 	5650 5200 5650 4150
 Connection ~ 1950 1800
 Wire Wire Line
-	1100 1800 1200 1800
+	900  1800 1200 1800
 Wire Wire Line
 	1200 1800 1200 1700
 Wire Wire Line
@@ -516,7 +514,6 @@ Wire Wire Line
 	2100 6300 2100 5400
 Wire Wire Line
 	1800 5400 3450 5400
-Connection ~ 1100 2200
 Connection ~ 1300 1800
 Wire Wire Line
 	1000 5800 3450 5800
@@ -587,8 +584,6 @@ Wire Wire Line
 Connection ~ 2050 5800
 Wire Wire Line
 	1300 1700 1300 1800
-Wire Wire Line
-	1100 2200 1100 1800
 $Comp
 L CONN_01X02 Program1
 U 1 1 5784055A
@@ -666,4 +661,65 @@ Wire Wire Line
 	9300 1100 8350 1100
 Wire Wire Line
 	8350 1100 8350 1350
+$Comp
+L MC78L05ACH U4
+U 1 1 5797C284
+P 1850 850
+F 0 "U4" H 1650 1050 50  0000 C CNN
+F 1 "MC78L05ACH" H 1850 1050 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT89-3_Housing_Handsoldering" H 1850 950 50  0000 C CIN
+F 3 "" H 1850 850 50  0000 C CNN
+	1    1850 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1100 1850 1800
+Connection ~ 1850 1800
+Wire Wire Line
+	1450 800  900  800 
+Wire Wire Line
+	900  800  900  1800
+Wire Wire Line
+	2250 800  2700 800 
+Wire Wire Line
+	2700 800  2700 1900
+Connection ~ 2700 1900
+$Comp
+L CP C2
+U 1 1 5797CF17
+P 1600 1400
+F 0 "C2" H 1625 1500 50  0000 L CNN
+F 1 "1uF" H 1625 1300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1638 1250 50  0000 C CNN
+F 3 "" H 1600 1400 50  0000 C CNN
+	1    1600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C3
+U 1 1 5797CF8C
+P 2500 1050
+F 0 "C3" H 2525 1150 50  0000 L CNN
+F 1 "1uF" H 2525 950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2538 900 50  0000 C CNN
+F 3 "" H 2500 1050 50  0000 C CNN
+	1    2500 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 900  2500 800 
+Connection ~ 2500 800 
+Wire Wire Line
+	2500 1200 2500 1350
+Connection ~ 2500 1350
+Wire Wire Line
+	1600 1250 1450 1250
+Wire Wire Line
+	1450 1250 1450 800 
+Wire Wire Line
+	1600 1550 1850 1550
+Connection ~ 1850 1550
+Connection ~ 1450 800 
+Wire Wire Line
+	5100 2200 3000 2200
 $EndSCHEMATC
