@@ -1,4 +1,4 @@
-update=Wed 27 Jul 2016 00:34:30 SAST
+update=Wed 27 Jul 2016 01:19:45 SAST
 version=1
 last_client=pcbnew
 [general]
@@ -44,7 +44,7 @@ LibName29=valves
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=badge-dc24-smd.net
+LastNetListRead=badge-dc24-atmel.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524
