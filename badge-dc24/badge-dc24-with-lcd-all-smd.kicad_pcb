@@ -1324,7 +1324,7 @@
   (gr_text v0.3 (at 143.0909 107.4801 45) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text 28df4735957a0b982dbc1d2027cbe393688ae2d4 (at 96.1644 123.4948) (layer F.Cu)
+  (gr_text 4949bd5106ba81babebe5f0a4540db1eed7f4169 (at 96.1644 123.4948) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text @elasticninja (at 131.7879 118.5672 45) (layer F.Cu)
