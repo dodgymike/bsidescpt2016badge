@@ -317,7 +317,7 @@ U 1 1 576E771F
 P 6050 3800
 F 0 "U2" H 6000 4250 60  0000 C CNN
 F 1 "TSOP38238" H 6100 3300 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6050 3800 60  0000 C CNN
+F 2 "custom-footprints:IR_Receiver" H 6050 3800 60  0000 C CNN
 F 3 "" H 6050 3800 60  0000 C CNN
 	1    6050 3800
 	-1   0    0    1   
@@ -667,7 +667,7 @@ U 1 1 5797C284
 P 1850 850
 F 0 "U4" H 1650 1050 50  0000 C CNN
 F 1 "MC78L05ACH" H 1850 1050 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT89-3_Housing_Handsoldering" H 1850 950 50  0000 C CIN
+F 2 "custom-footprints:MC78L05ACH-SOT89-3_Housing_Handsoldering" H 1850 950 50  0000 C CIN
 F 3 "" H 1850 850 50  0000 C CNN
 	1    1850 850 
 	1    0    0    -1  
@@ -741,4 +741,27 @@ Wire Wire Line
 Wire Wire Line
 	1150 2700 1150 1800
 Connection ~ 1150 1800
+$Comp
+L CONN_01X06 P2
+U 1 1 57BAD6B9
+P 4350 4100
+F 0 "P2" H 4350 4450 50  0000 C CNN
+F 1 "CONN_01X06" V 4450 4100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 4350 4100 50  0000 C CNN
+F 3 "" H 4350 4100 50  0000 C CNN
+	1    4350 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 4300 4100 4600
+Wire Wire Line
+	4200 4300 4200 4600
+Wire Wire Line
+	4300 4300 4300 4600
+Wire Wire Line
+	4400 4300 4400 4600
+Wire Wire Line
+	4500 4300 4500 4600
+Wire Wire Line
+	4600 4300 4600 4600
 $EndSCHEMATC
