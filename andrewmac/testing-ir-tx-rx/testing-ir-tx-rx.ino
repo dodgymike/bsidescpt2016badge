@@ -226,8 +226,8 @@ char cptlogo [] = {
 void setup() {
   Serial.begin(9600);
   Serial.println("Starting Badge!");
-//  irrecv.enableIRIn(); // Start the receiver
-//  irsend.begin();
+  irrecv.enableIRIn(); // Start the receiver
+  irsend.begin();
   delay(10);
 
 Serial.println("Connecting to wifi");
@@ -245,40 +245,40 @@ Serial.println("Connecting to wifi");
   int tickEvent2 = t.every(2000, transmitBadge);
 
 
-  LCDInit(); //Init the LCD
+  //LCDInit(); //Init the LCD
   
-  LCDClear();
-  LCDBitmap(bsidesLCD8448); // display BSides Logo
+  //LCDClear();
+  //LCDBitmap(bsidesLCD8448); // display BSides Logo
   delay(4000);
 
-  LCDClear();
-  LCDBitmap(cptlogo);
+  //LCDClear();
+  //LCDBitmap(cptlogo);
   gotoXY(0, 2);
-  LCDString(" Welcome to ");
-  LCDString("   BSIDES   ");
-  LCDString("    CPT     ");
+  Serial.println(" Welcome to ");
+  Serial.println("   BSIDES   ");
+  Serial.println("    CPT     ");
   delay(3000);
 
-  LCDClear();
+  //LCDClear();
   gotoXY(0, 2);
-  LCDString("Connecting  ");
-  LCDString("to WiFi");
+  Serial.println("Connecting  ");
+  Serial.println("to WiFi");
   
   WiFi.begin(ssid, password);
   
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
-    LCDString(".");
+    Serial.println(".");
   }
   
-  LCDClear();
+  //LCDClear();
   gotoXY(0, 2);
-  LCDString("    WiFi    "); 
-  LCDString(" Connected! "); 
+  Serial.println("    WiFi    "); 
+  Serial.println(" Connected! "); 
   
   delay(1000);
-  LCDClear();
-  LCDBitmap(bsidesLCD8448);
+  //LCDClear();
+  //LCDBitmap(bsidesLCD8448);
     
 }
 
@@ -379,8 +379,8 @@ void dump(decode_results *results) {
       
       //Serial.print("Decoded Badge: ");Serial.println(newBadge,HEX);
      // gotoXY(7, 5);
-      //LCDString("-VALID-");
-      //LCDString(newBadge);
+      //Serial.println("-VALID-");
+      //Serial.println(newBadge);
       bool seenBadge = false;
       int i = 0;
       for (i = 0; i <= numBadges - 1; i++)
@@ -415,7 +415,7 @@ void dump(decode_results *results) {
     else
     {
       //gotoXY(7, 5);
-      //LCDString("-INVALID-");
+      //Serial.println("-INVALID-");
     }
    
     
@@ -429,6 +429,7 @@ void loop() {
 
   Serial.print("Loop");
  /* 
+  */
   
 
   t.update();
@@ -440,13 +441,12 @@ void loop() {
   else
   {
     //gotoXY(7, 4);
-    //LCDString("          ");
+    //Serial.println("          ");
     //gotoXY(7, 5);
-    //LCDString("          ");
+    //Serial.println("          ");
   }
 
   //delay(1000);
-  */
 }
 
 
