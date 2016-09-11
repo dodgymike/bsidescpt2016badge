@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mike/source/bsidescpt2016badge/badge-dc24/badge-dc24.sch)
-    (date "Wed 07 Sep 2016 13:50:02 SAST")
+    (date "Sun 11 Sep 2016 18:37:00 SAST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu15.10.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -107,7 +107,7 @@
       (tstamp 576D989E))
     (comp (ref U3)
       (value 74HC595)
-      (footprint Housings_DIP:DIP-16_W7.62mm_LongPads)
+      (footprint Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm)
       (libsource (lib 74xx) (part 74HC595))
       (sheetpath (names /) (tstamps /))
       (tstamp 576D98EA))
@@ -191,7 +191,7 @@
       (tstamp 579BABC1))
     (comp (ref U5)
       (value 74LS165)
-      (footprint Housings_DIP:DIP-16_W7.62mm_LongPads)
+      (footprint Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm)
       (libsource (lib 74xx) (part 74LS165))
       (sheetpath (names /) (tstamps /))
       (tstamp 57CFD957))

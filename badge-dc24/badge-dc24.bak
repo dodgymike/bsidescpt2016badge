@@ -491,7 +491,6 @@ Wire Wire Line
 	1000 5800 3450 5800
 Wire Wire Line
 	1000 5700 3450 5700
-Connection ~ 2150 4150
 Wire Wire Line
 	1300 1700 1300 1800
 $Comp
