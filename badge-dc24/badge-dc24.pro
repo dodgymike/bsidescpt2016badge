@@ -1,4 +1,4 @@
-update=Thu 15 Sep 2016 08:59:45 SAST
+update=Sun 18 Sep 2016 19:52:25 SAST
 version=1
 last_client=eeschema
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=/home/mike/kicad/libraries/TSOP38238 38kHz IR receiver
 LibName32=/home/mike/source/nc-libs/CP2102
 LibName33=/home/mike/source/nc-libs/cp2103
 LibName34=/home/mike-encrypted2/mike/source/BB-CH340T/bb-ch340t
+LibName35=/home/mike/source/kicadlibrary/open-project
