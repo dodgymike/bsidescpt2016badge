@@ -1,4 +1,4 @@
-update=Sun 18 Sep 2016 19:52:25 SAST
+update=Tue 27 Sep 2016 12:12:02 SAST
 version=1
 last_client=eeschema
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=/home/mike/source/nc-libs/CP2102
 LibName33=/home/mike/source/nc-libs/cp2103
 LibName34=/home/mike-encrypted2/mike/source/BB-CH340T/bb-ch340t
 LibName35=/home/mike/source/kicadlibrary/open-project
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
