@@ -2508,7 +2508,7 @@
     )
   )
 
-  (gr_text 41ca1bf77ccc0e679712482481345996bcfa30ac (at 49.42078 103.43388 90) (layer B.Cu)
+  (gr_text 1a9477d0f71f72bc9a3a7ab4a380a72aa717b613 (at 49.42078 103.43388 90) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "v0.7.0\n" (at 143.17218 76.29652) (layer B.Cu)
