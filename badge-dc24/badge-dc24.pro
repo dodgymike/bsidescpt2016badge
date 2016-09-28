@@ -1,4 +1,4 @@
-update=Tue 27 Sep 2016 12:12:02 SAST
+update=Wed 28 Sep 2016 20:29:36 SAST
 version=1
 last_client=eeschema
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -64,13 +74,4 @@ LibName32=/home/mike/source/nc-libs/CP2102
 LibName33=/home/mike/source/nc-libs/cp2103
 LibName34=/home/mike-encrypted2/mike/source/BB-CH340T/bb-ch340t
 LibName35=/home/mike/source/kicadlibrary/open-project
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName36=/home/mike-encrypted2/mike/source/bsidescpt2016badge/badge-dc24/mma8452qt
