@@ -1276,8 +1276,6 @@ F 3 "" H -500 650 50  0000 C CNN
 	1    -500 650 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	-500 800  -500 1100
 Connection ~ -500 900 
 Wire Wire Line
 	-500 500  -750 500 
@@ -1312,9 +1310,7 @@ $EndComp
 Wire Wire Line
 	-2300 900  -2450 900 
 Wire Wire Line
-	-2750 900  -2750 1100
-Wire Wire Line
-	-2750 1100 -500 1100
+	-2750 900  -2750 3300
 $Comp
 L C C8
 U 1 1 57DEFE73
@@ -1376,4 +1372,9 @@ $EndComp
 Wire Wire Line
 	-250 350  -250 250 
 Connection ~ -250 250 
+Wire Wire Line
+	-500 800  -500 900 
+Wire Wire Line
+	-2750 3300 3000 3300
+Connection ~ 3000 3300
 $EndSCHEMATC

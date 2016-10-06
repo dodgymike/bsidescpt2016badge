@@ -1247,9 +1247,9 @@ $Comp
 L BAT #BAT1
 U 1 1 57DEE416
 P 50 650
-F 0 "#BAT1" H 50  500 60  0000 C CNN
+F 0 "#BAT1" H 50  500 60  0001 C CNN
 F 1 "BAT" H 50  800 60  0000 C CNN
-F 2 "" H 50  650 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 50  650 60  0000 C CNN
 F 3 "" H 50  650 60  0000 C CNN
 	1    50   650 
 	0    1    1    0   
