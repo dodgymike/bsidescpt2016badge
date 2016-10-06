@@ -1388,8 +1388,6 @@ Wire Wire Line
 Wire Wire Line
 	50   250  50   500 
 Connection ~ -800 2700
-Wire Wire Line
-	-500 800  -500 1100
 Connection ~ -500 900 
 Wire Wire Line
 	-500 500  -750 500 
@@ -1403,8 +1401,6 @@ Wire Wire Line
 	-2300 900  -2450 900 
 Wire Wire Line
 	-2750 900  -2750 1100
-Wire Wire Line
-	-2750 1100 -500 1100
 Wire Wire Line
 	-300 5000 -1800 5000
 Wire Wire Line
@@ -1533,4 +1529,11 @@ Wire Wire Line
 Wire Wire Line
 	-2850 3050 -2850 3250
 Connection ~ -2850 3250
+Wire Wire Line
+	-500 800  -500 900 
+Wire Wire Line
+	-2750 1100 -2250 1100
+Wire Wire Line
+	-2250 1100 -2250 2800
+Connection ~ -2250 2800
 $EndSCHEMATC
