@@ -1377,4 +1377,43 @@ Wire Wire Line
 Wire Wire Line
 	-2750 3300 3000 3300
 Connection ~ 3000 3300
+Wire Wire Line
+	7200 4650 7850 4650
+Wire Wire Line
+	7850 4650 7850 1350
+Connection ~ 7850 1350
+$Comp
+L CP C10
+U 1 1 57FC268D
+P 2550 2550
+F 0 "C10" H 2575 2650 50  0000 L CNN
+F 1 "10uF" H 2575 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 2400 50  0000 C CNN
+F 3 "" H 2550 2550 50  0000 C CNN
+	1    2550 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C11
+U 1 1 57FC27FC
+P 2550 2950
+F 0 "C11" H 2575 3050 50  0000 L CNN
+F 1 "1uF" H 2575 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 2800 50  0000 C CNN
+F 3 "" H 2550 2950 50  0000 C CNN
+	1    2550 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 2950 3000 2950
+Connection ~ 3000 2950
+Wire Wire Line
+	2700 2550 3000 2550
+Connection ~ 3000 2550
+Wire Wire Line
+	2400 2950 2150 2950
+Connection ~ 2150 2950
+Wire Wire Line
+	2400 2550 2150 2550
+Connection ~ 2150 2550
 $EndSCHEMATC
