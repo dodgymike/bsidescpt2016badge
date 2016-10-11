@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.75)
+    (last_trace_width 0.35)
     (user_trace_width 0.25)
     (user_trace_width 0.35)
     (user_trace_width 0.5)
@@ -2648,7 +2648,7 @@
     )
   )
 
-  (gr_text dc782c5370054fb6ed6cfe01a5c71b4c78593104 (at 49.42078 103.43388 90) (layer B.Cu)
+  (gr_text 9e311dd31c2f1807f9dd7561c872d1325339c0de (at 49.42078 103.43388 90) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "v0.7.4\n" (at 143.17218 76.29652) (layer B.Cu)
@@ -2746,8 +2746,8 @@
   (target plus (at 147.32 132.08) (size 5) (width 0.15) (layer Edge.Cuts))
   (target plus (at 47.752 132.08) (size 5) (width 0.15) (layer Edge.Cuts))
 
-  (segment (start 127.2541 100.3321) (end 127.2541 99.9541) (width 0.75) (layer F.Cu) (net 1) (status C00000))
-  (segment (start 127.2541 99.9541) (end 125.75 98.45) (width 0.75) (layer F.Cu) (net 1) (tstamp 57FCFD8F) (status 400000))
+  (segment (start 127.2541 100.3321) (end 127.2541 99.9541) (width 0.75) (layer F.Cu) (net 1))
+  (segment (start 127.2541 99.9541) (end 125.75 98.45) (width 0.75) (layer F.Cu) (net 1) (tstamp 57FCFD8F))
   (via (at 125.75 98.45) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 140.52341 115.27659) (end 140.52341 111.87659) (width 0.75) (layer B.Cu) (net 1))
   (segment (start 140.52341 111.87659) (end 140.9 111.5) (width 0.75) (layer B.Cu) (net 1) (tstamp 57F6BDE0))
