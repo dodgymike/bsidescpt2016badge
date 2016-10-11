@@ -1416,4 +1416,36 @@ Connection ~ 2150 2950
 Wire Wire Line
 	2400 2550 2150 2550
 Connection ~ 2150 2550
+$Comp
+L R R22
+U 1 1 57FCFF4D
+P -2450 1200
+F 0 "R22" V -2370 1200 50  0000 C CNN
+F 1 "470 Ohm" V -2450 1200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V -2520 1200 50  0000 C CNN
+F 3 "" H -2450 1200 50  0000 C CNN
+	1    -2450 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 57FD00A3
+P -1950 1200
+F 0 "D3" H -1950 1300 50  0000 C CNN
+F 1 "LED" H -1950 1100 50  0000 C CNN
+F 2 "LEDs:LED_0805" H -1950 1200 50  0000 C CNN
+F 3 "" H -1950 1200 50  0000 C CNN
+	1    -1950 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-2300 1200 -2150 1200
+Wire Wire Line
+	-1750 1200 -1750 900 
+Connection ~ -1750 900 
+Wire Wire Line
+	-2600 1200 -2600 3150
+Wire Wire Line
+	-2600 3150 2150 3150
+Connection ~ 2150 3150
 $EndSCHEMATC
