@@ -2653,7 +2653,7 @@
   (gr_line (start 147.3 132.05) (end 147.3 74.15) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 47.75 132.05) (end 147.3 132.05) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 47.75 74.2) (end 47.75 132.05) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text 9e311dd31c2f1807f9dd7561c872d1325339c0de (at 49.42078 103.43388 90) (layer B.Cu)
+  (gr_text 618f3cde1b55977ee9743dd5a27a4bac33287636 (at 49.42078 103.43388 90) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "v0.7.4\n" (at 143.17218 76.29652) (layer B.Cu)
