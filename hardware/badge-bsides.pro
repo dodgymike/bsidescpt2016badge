@@ -1,6 +1,10 @@
-update=Tue 27 Sep 2016 12:12:02 SAST
+update=22/05/2015 07:44:53
 version=1
-last_client=eeschema
+last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,8 +27,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -58,19 +60,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/mike/kicad/libraries/kicad-ESP8266/ESP8266
-LibName31=/home/mike/kicad/libraries/TSOP38238 38kHz IR receiver
-LibName32=/home/mike/source/nc-libs/CP2102
-LibName33=/home/mike/source/nc-libs/cp2103
-LibName34=/home/mike-encrypted2/mike/source/BB-CH340T/bb-ch340t
-LibName35=/home/mike/source/kicadlibrary/open-project
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
