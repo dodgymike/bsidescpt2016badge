@@ -1,6 +1,6 @@
-update=22/05/2015 07:44:53
+update=Mon 09 Jan 2017 21:07:09 SAST
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/mike-encrypted2/mike/source/bsidescpt2016badge/hardware/custom-footprints.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
